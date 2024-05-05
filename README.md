@@ -1,8 +1,10 @@
-# React + Vite
+# Component SCSS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+I installed SASS and I worked with .scss files for this project. 
+I created a card component that displays an album cover and some information. 
 
-Currently, two official plugins are available:
+To do the stars rating I used the following library:
+- [react-simple-star-rating](https://github.com/awran5/react-simple-star-rating)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Demo 
+![](src/assets/images/demo-project.png)

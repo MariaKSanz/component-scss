@@ -2,7 +2,7 @@ import styles from "../assets/styles/card.module.scss"
 import PropTypes from "prop-types";
 import {Rating} from "react-simple-star-rating";
 
-export const Card = ({image, title, album, year}) => {
+export const Card = ({image, artist, song, year}) => {
   return (
     <div className={styles.card}>
       <div className={styles.cardUp}>
@@ -10,8 +10,8 @@ export const Card = ({image, title, album, year}) => {
           <img src={image} alt="album"/>
         </div>
         <div className={styles.cardText}>
-          <h2>{title}</h2>
-          <p>{album}</p>
+          <h2>{artist}</h2>
+          <p>{song}</p>
           <p>({year})</p>
         </div>
       </div>
@@ -29,7 +29,7 @@ export const Card = ({image, title, album, year}) => {
 
 Card.propTypes = {
   image: PropTypes.string.isRequired,
-  title: PropTypes.string.isRequired,
-  album: PropTypes.string.isRequired,
+  artist: PropTypes.string.isRequired,
+  song: PropTypes.string.isRequired,
   year: PropTypes.number.isRequired,
 }
