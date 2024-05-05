@@ -1,5 +1,6 @@
 import styles from "../assets/styles/card.module.scss"
 import PropTypes from "prop-types";
+import {Rating} from "react-simple-star-rating";
 
 export const Card = ({image, title, album, year}) => {
   return (
@@ -19,7 +20,7 @@ export const Card = ({image, title, album, year}) => {
           <p>Rate this album</p>
         </div>
         <div>
-          ⭐️⭐️⭐️⭐️⭐️
+          <Rating size={16}/>
         </div>
       </div>
     </div>
