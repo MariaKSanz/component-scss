@@ -1,4 +1,5 @@
 import {Card} from "./components/Card.jsx";
+import './assets/styles/app.scss';
 
 function App() {
 
