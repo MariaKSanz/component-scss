@@ -7,4 +7,4 @@ To do the stars rating I used the following library:
 - [react-simple-star-rating](https://github.com/awran5/react-simple-star-rating)
 
 ## Demo 
-![](src/assets/images/demo-project.png)
+![](demo-project.jpg)
